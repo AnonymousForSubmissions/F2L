@@ -6,5 +6,5 @@ To run the code, first adjust the "dataset" arg in main.py to choose the dataset
 
 Then run the command:
 
-# python main.py
+python main.py
 
