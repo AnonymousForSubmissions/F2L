@@ -87,7 +87,7 @@ def l2_normalize(x):
 def get_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--model', type=str, default='resnet12', help='neural network used in training')
-    parser.add_argument('--dataset', type=str, default='20newsgroup', help='dataset used for training')
+    parser.add_argument('--dataset', type=str, default='huffpost', help='dataset used for training')
     parser.add_argument('--net_config', type=lambda x: list(map(int, x.split(', '))))
     parser.add_argument('--partition', type=str, default='noniid', help='the data partitioning strategy')
     parser.add_argument('--batch-size', type=int, default=64, help='input batch size for training (default: 64)')
